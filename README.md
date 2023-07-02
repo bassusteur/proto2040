@@ -1,5 +1,5 @@
 # femto2040
-![Screenshot 2023-07-03 002632](https://github.com/bassusteur/femto2040/assets/42449683/4836545a-857a-44bd-b65e-3a7dac154ca9)
+![Screenshot 2023-07-03 002632](https://github.com/bassusteur/femto2040/assets/42449683/4836545a-857a-44bd-b65e-3a7dac154ca9) \
 <sub> board in pic may be outdated </sub> \
 This is femto2040! A neat little rp2040-based board for your space starved projects!
 It gives you all you need for debugging as well as access to all GPIO AND debug pins which can be easily soldered to with enamel coated wire.
