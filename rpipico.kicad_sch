@@ -2742,8 +2742,8 @@
     (property "Datasheet" "~" (at 95.25 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a3da83c-515f-4013-92f2-85342de6e061))
-    (pin "2" (uuid 45fddd04-b8b3-41c1-9ac6-ca827303d961))
+    (pin "1" (uuid 792f7e60-4663-4883-9ee1-6079074ca118))
+    (pin "2" (uuid a8c88ec2-cc2d-4a15-93ef-a4bf411f9dce))
     (instances
       (project "rpipico"
         (path "/dabcfa75-d0e2-4c07-abb7-0bcc063de50a"
@@ -3373,6 +3373,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 120.65 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c40c8709-8b18-4704-9bd6-a0e825b5a481)
+    (property "Reference" "#PWR028" (at 120.65 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 120.65 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 120.65 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 120.65 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 636d75c1-62ef-4696-b2da-c3ae264c5299))
+    (instances
+      (project "rpipico"
+        (path "/dabcfa75-d0e2-4c07-abb7-0bcc063de50a"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 52.832 20.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9e79ba1-ec13-497e-959d-2c20b3586761)
@@ -3444,6 +3469,32 @@
       (project "rpipico"
         (path "/dabcfa75-d0e2-4c07-abb7-0bcc063de50a"
           (reference "#PWR021") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 115.57 124.46 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid df742312-390d-4d8a-8dff-f72aa781765e)
+    (property "Reference" "J9" (at 115.57 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 115.57 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" (at 115.57 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d406dbc1-6659-482e-99ed-60693a639791))
+    (pin "2" (uuid da82ee61-9892-4f7e-a192-c427c7c3ab75))
+    (instances
+      (project "rpipico"
+        (path "/dabcfa75-d0e2-4c07-abb7-0bcc063de50a"
+          (reference "J9") (unit 1)
         )
       )
     )
