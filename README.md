@@ -1,4 +1,1 @@
-This is proto2040, an rp2040 based board.
-But why's it special? It's so small! So small and thin but without compromises.
-All the GPIO is routed to 1mm headers, with separate ones for ADC labelled accordingly! - as a result you can access all SPI, I2C and UART peripherals you might need and power giving you access to 3.3v, GND and 5V.
-If you need to make it thinner, there's two things you can do. You can desolder the USB-C port, and solder to the USB data lines exposed on a separate PCB header. You can also use hot air to replace the SOIC8-W flash chip with a thinner, UDFN-8 one - the footprint for that one is hidden under the large flash chip. This will help you bring board thickness even further down, for any space-constrained application being able to embed it into smallest of places, wherever you need a small microcontroller, whether it's some tiny trinket of yours, perhaps an art piece, or a mod chip to make your devices do something they're not designed to do.
+# This is proto2040, an rp2040 based board.
